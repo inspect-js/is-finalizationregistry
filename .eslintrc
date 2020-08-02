@@ -9,5 +9,6 @@
 
 	"rules": {
 		"id-length": 0,
+		"operator-linebreak": [2, "before"],
 	},
 }
