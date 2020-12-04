@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/inspect-js/is-finalizationregistry/compare/v1.0.0...v1.0.1) - 2020-12-04
+
+### Commits
+
+- [Tests] migrate tests to Github Actions [`b697250`](https://github.com/inspect-js/is-finalizationregistry/commit/b69725063681eeb9179d9945512a62112b360cd2)
+- [Tests] run `nyc` on all tests [`9091806`](https://github.com/inspect-js/is-finalizationregistry/commit/9091806c8cc05340dc964fb3c566e650c1bff947)
+- [actions] add "Allow Edits" workflow [`5d8c4f5`](https://github.com/inspect-js/is-finalizationregistry/commit/5d8c4f5e5ca4f001f6a16744c2cce5d32bdae39b)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `object-inspect` [`3af34c1`](https://github.com/inspect-js/is-finalizationregistry/commit/3af34c194a8dfb41e773f7e1647e1e1cf05ec98d)
+- [actions] switch Automatic Rebase workflow to `pull_request_target` event [`d0720ff`](https://github.com/inspect-js/is-finalizationregistry/commit/d0720ff2d07308ec3e90f13c7a15affa05339fe7)
+- [readme] remove travis badge [`2757b27`](https://github.com/inspect-js/is-finalizationregistry/commit/2757b27db4cbb93d712bd85c1741f3071a720dc7)
+- [meta] add `package.json` to `exports` [`c680142`](https://github.com/inspect-js/is-finalizationregistry/commit/c680142dcd73d3f3c8ec75c0ab1c9281edaeb91f)
+
 ## v1.0.0 - 2020-08-02
 
 ### Commits
