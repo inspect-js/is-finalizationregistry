@@ -1,14 +1,11 @@
 'use strict';
 
-var callBind = require('es-abstract/helpers/callBind');
+var callBound = require('call-bind/callBound');
 
-var $register = typeof FinalizationRegistry === 'undefined' ? null : callBind(FinalizationRegistry.prototype.register);
+var $register = callBound('FinalizationRegistry.prototype.register', true);
 
-module.exports = typeof FinalizationRegistry === 'undefined'
-	? function isFinalizationRegistry(value) { // eslint-disable-line no-unused-vars
-		return false;
-	}
-	: function isFinalizationRegistry(value) {
+module.exports = $register
+	? function isFinalizationRegistry(value) {
 		if (!value || typeof value !== 'object') {
 			return false;
 		}
@@ -18,4 +15,7 @@ module.exports = typeof FinalizationRegistry === 'undefined'
 		} catch (e) {
 			return false;
 		}
+	}
+	: function isFinalizationRegistry(value) { // eslint-disable-line no-unused-vars
+		return false;
 	};
