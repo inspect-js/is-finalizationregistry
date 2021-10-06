@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/inspect-js/is-finalizationregistry/compare/v1.0.1...v1.0.2) - 2021-10-05
+
+### Commits
+
+- [meta] do not publish Github Actions workflows [`5509e8c`](https://github.com/inspect-js/is-finalizationregistry/commit/5509e8c13173a128244fc306d304c9be958b62f3)
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`b566204`](https://github.com/inspect-js/is-finalizationregistry/commit/b5662048c9824089baf6fe3e0c408d6297635b2c)
+- [readme] fix markdown [`02602dd`](https://github.com/inspect-js/is-finalizationregistry/commit/02602dda3176944f6681b97fb0d26e43bf2accc8)
+- [Fix] use `call-bind` and obviate missing `es-abstract` dep [`9d71846`](https://github.com/inspect-js/is-finalizationregistry/commit/9d718467ef713e10242c28e48d82947d108ed5ef)
+- [readme] add actions and codecov badges [`75381a7`](https://github.com/inspect-js/is-finalizationregistry/commit/75381a76ad373fd4bea0f032e8593dec60785332)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `auto-changelog`, `object-inspect`, `tape` [`7a0f9d8`](https://github.com/inspect-js/is-finalizationregistry/commit/7a0f9d8befeee03f578cf9184190e4a143a05abf)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `object-inspect`, `tape` [`962689f`](https://github.com/inspect-js/is-finalizationregistry/commit/962689f01c33d06eadb4456004d231b56cb13825)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape` [`762ebf2`](https://github.com/inspect-js/is-finalizationregistry/commit/762ebf2f8d06597029b794053f0630b6ddeb7cc2)
+- [meta] add `safe-publish-latest`; use `prepublishOnly` script for npm 7+ [`fe0b226`](https://github.com/inspect-js/is-finalizationregistry/commit/fe0b2268e0eaa4fd56418aba87d2e761c04917e6)
+
 ## [v1.0.1](https://github.com/inspect-js/is-finalizationregistry/compare/v1.0.0...v1.0.1) - 2020-12-04
 
 ### Commits
