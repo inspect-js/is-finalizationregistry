@@ -41,6 +41,9 @@
 		"url": "https://github.com/inspect-js/is-finalizationregistry/issues"
 	},
 	"homepage": "https://github.com/inspect-js/is-finalizationregistry#readme",
+	"dependencies": {
+		"call-bound": "^1.0.3"
+	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.17.1",
 		"@ljharb/eslint-config": "^21.1.1",
@@ -67,9 +70,6 @@
 		"commitLimit": false,
 		"backfillLimit": false,
 		"hideCredit": true
-	},
-	"dependencies": {
-		"call-bound": "^1.0.3"
 	},
 	"publishConfig": {
 		"ignore": [
